@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Brief</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231230170743">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+		(function(m, e, t, r, i, k, a) {
+			m[i] = m[i] || function() {
+				(m[i].a = m[i].a || []).push(arguments)
+			};
+			m[i].l = 1 * new Date();
+			for (var j = 0; j < document.scripts.length; j++) {
+				if (document.scripts[j].src === r) {
+					return;
+				}
+			}
+			k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+		})
+		(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+		ym(93094584, "init", {
+			clickmap: true,
+			trackLinks: true,
+			accurateTrackBounce: true,
+			webvisor: true
+		});
+	</script>
+	<noscript>
+		<div><picture><source srcset="https://mc.yandex.ru/watch/93094584" type="image/webp"><img src="https://mc.yandex.ru/watch/93094584" style="position:absolute; left:-9999px;" alt="" /></picture></div>
+	</noscript>
+	<!-- Yandex.Metrika counter -->
+</head>
+
+<body>
+	<div class="wrapper wrapper_brief">
+		<header class="header">
+			<div class="header__container">
+				<a href="index.html" class="header__logo logo"><img src="img/logo.svg" alt="logo"></a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="index.html#services" class="menu__link">Услуги</a>
+							</li>
+							<li class="menu__item"><a target="_blank" href="portfolio.html" class="menu__link">Проекты</a></li>
+							<li class="menu__item"><a href="index.html#questions" class="menu__link">FAQ</a>
+							</li>
+							<li class="menu__item"><a href="#" class="menu__link menu__link_download _icon-file-download">Скачать
+									презентацию</a></li>
+						</ul>
+						<div class="menu__cta">
+							<div class="hero__buttons">
+								<button data-popup="#popup-discuss" type="button" class="button button_header">Обсудить
+									проект</button>
+								<a href="brief.html" class="brief-button brief-button_header">
+									<span>Заполнить бриф</span>
+								</a>
+							</div>
+							<a target="_blank" href="https://www.youtube.com/watch?v=hO4PhCQF6EM" class="hero__showrell showrell showrell_header">
+								<span>Showreel</span>
+								<span class="showrell__icon"></span>
+							</a>
+						</div>
+					</nav>
+				</div>
+				<div class="header__actions">
+					<div data-da=".menu__body,1150,last" class="header__social social">
+						<a target="_blank" href="https://t.me/CelicomProductionBot" class="social__telegram _icon-telegram"></a>
+						<a target="_blank" href="https://vk.com/celicomprovideo" class="social__wk _icon-wk"></a>
+						<a target="_blank" href="https://www.youtube.com/@celicomproduction" class="social__youtube _icon-youtube"></a>
+						<a target="_blank" href="https://www.instagram.com/celicomprovideo/" class="social__instagram _icon-instagram"></a>
+					</div>
+					<div data-da=".menu__body,768,last" class="header__callback callback">
+						<a href="tel:+79651935143" class="callback__link _icon-phone">+7 965 193 51 43</a>
+					</div>
+					<div data-da=".menu__body,550,last" class="header__cta">
+						<button data-popup="#zoom-message" type="button" class="header__button">Связаться по ZOOM</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="stepper">
+				<form data-popup-message="#form-message" data-ajax action="files/sendmail/sendmail.php" method="POST" class="stepper__container">
+					<div class="stepper__inner">
+						<nav class="breadcrumps">
+							<ul class="breadcrumps__list">
+								<li class="breadcrumps__item">
+									<a href="index.html" class="breadcrumps__link">Главная</a>
+								</li>
+								<span>|</span>
+								<li class="breadcrumps__item">
+									Бриф
+								</li>
+							</ul>
+						</nav>
+						<h2 class="stepper__subtitle subtitle">Бриф для заказа</h2>
+						<div data-multi-step>
+							<div data-step class="card">
+								<div class="card__title">Общее описание задачи</div>
+								<div class="card__cta">
+									<textarea placeholder="Например - Нужно снять видео, описывающее мои идеи, продукты и услуги." required name="usermessage" id="" cols="30" rows="10"></textarea>
+								</div>
+								<div class="card__footer">
+									<div class="card__progress progress-card">
+										<div class="progress-card__text">Готово <span>0%</span> </div>
+										<div class="progress-card__line"></div>
+									</div>
+									<div class="card__actions">
+										<button data-goto=".stepper" data-next type="button">Следующий вопрос</button>
+									</div>
+								</div>
+							</div>
+							<div data-step class="card">
+								<div class="card__title">Срок сдачи готового ролика?</div>
+								<div class="card__cta">
+									<div class="card__datepicker">
+										<input data-required name="datestart" placeholder="от" class="datepicker-input" data-datepicker type="text">
+										<input data-required name="dateend" placeholder="до" class="datepicker-input" data-datepicker2 type="text">
+									</div>
+								</div>
+								<div class="card__footer">
+									<div class="card__progress progress-card">
+										<div class="progress-card__text">Готово <span>10%</span> </div>
+										<div class="progress-card__line progress-card__line_1"></div>
+									</div>
+									<div class="card__actions">
+										<button data-goto=".stepper" data-previous type="button"></button>
+										<button data-goto=".stepper" data-next type="button">Следующий вопрос</button>
+									</div>
+								</div>
+							</div>
+							<div data-step class="card">
+								<div class="card__title">Планируемый хронометраж вашего ролика?
+								</div>
+								<div class="card__cta">
+									<div class="options">
+										<div class="options__item">
+											<input hidden id="o_11" class="options__input" name="timing" checked type="radio" value="меньше 60 сек" name="option">
+											<label for="o_11" class="options__label"><span class="options__text">меньше 60
+													сек</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_12" class="options__input" name="timing" type="radio" value="от 60 сек до 3 минут" name="option">
+											<label for="o_12" class="options__label"><span class="options__text">от 60 сек до 3
+													минут</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_13" class="options__input" name="timing" type="radio" value="от 3 минут до 30 минут" name="option">
+											<label for="o_13" class="options__label"><span class="options__text">от 3 минут до 30
+													минут</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_14" class="options__input" name="timing" type="radio" value="больше 30 минут" name="option">
+											<label for="o_14" class="options__label"><span class="options__text">больше 30
+													минут</span></label>
+										</div>
+									</div>
+								</div>
+								<div class="card__footer">
+									<div class="card__progress progress-card">
+										<div class="progress-card__text">Готово <span>20%</span> </div>
+										<div class="progress-card__line progress-card__line_2"></div>
+									</div>
+									<div class="card__actions">
+										<button data-goto=".stepper" data-previous type="button">
+
+										</button>
+										<button data-goto=".stepper" data-next type="button">Следующий вопрос</button>
+									</div>
+								</div>
+							</div>
+							<div data-step class="card">
+								<div class="card__title">Референсы - покажите нам ролики, которые вам нравятся, если такие
+									имеются.
+								</div>
+								<div class="card__cta">
+									<textarea data-required name="referencemessage" placeholder="Например - просто вбейте ссылки через пробел или запятую."></textarea>
+								</div>
+								<div class="card__footer">
+									<div class="card__progress progress-card">
+										<div class="progress-card__text">Готово <span>30%</span> </div>
+										<div class="progress-card__line progress-card__line_3"></div>
+									</div>
+									<div class="card__actions">
+										<button data-goto=".stepper" data-previous type="button">
+
+										</button>
+										<button data-goto=".stepper" data-next type="button">Следующий вопрос</button>
+									</div>
+								</div>
+							</div>
+							<div data-step class="card">
+								<div class="card__title">Есть ли у вас готовый сценарий ролика, или нам нужно его написать?
+								</div>
+								<div class="card__cta">
+									<div class="options">
+										<div class="options__item">
+											<input hidden id="o_1" class="options__input" name="scenario" checked type="radio" value="Сценарий не нужен" name="option">
+											<label for="o_1" class="options__label"><span class="options__text">Сценарий не
+													нужен</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_2" class="options__input" name="scenario" type="radio" value="Есть сценарий" name="option">
+											<label for="o_2" class="options__label"><span class="options__text">Есть
+													сценарий</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_3" class="options__input" name="scenario" type="radio" value="Нет сценария" name="option">
+											<label for="o_3" class="options__label"><span class="options__text">Нет
+													сценария.</span></label>
+										</div>
+									</div>
+								</div>
+								<div class="card__footer">
+									<div class="card__progress progress-card">
+										<div class="progress-card__text">Готово <span>40%</span> </div>
+										<div class="progress-card__line progress-card__line_4"></div>
+									</div>
+									<div class="card__actions">
+										<button data-goto=".stepper" data-previous type="button">
+
+										</button>
+										<button data-goto=".stepper" data-next type="button">Следующий вопрос</button>
+									</div>
+								</div>
+							</div>
+							<div data-step class="card">
+								<div class="card__title">Планируется съемка с букингом актеров с нашей стороны или вы
+									предоставите актеров и моделей?
+								</div>
+								<div class="card__cta">
+									<div class="options">
+										<div class="options__item">
+											<input hidden id="o_4" class="options__input" name="booking" checked type="radio" value="актеры не нужны" name="option">
+											<label for="o_4" class="options__label"><span class="options__text">актеры не
+													нужны</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_5" class="options__input" name="booking" type="radio" value="мы предоставим актеров" name="option">
+											<label for="o_5" class="options__label"><span class="options__text">мы предоставим
+													актеров</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_6" class="options__input" name="booking" type="radio" value="нам нужны услуги букинга" name="option">
+											<label for="o_6" class="options__label"><span class="options__text">нам нужны услуги
+													букинга</span></label>
+										</div>
+									</div>
+								</div>
+								<div class="card__footer">
+									<div class="card__progress progress-card">
+										<div class="progress-card__text">Готово <span>50%</span> </div>
+										<div class="progress-card__line progress-card__line_5"></div>
+									</div>
+									<div class="card__actions">
+										<button data-goto=".stepper" data-previous type="button">
+
+										</button>
+										<button data-goto=".stepper" data-next type="button">Следующий вопрос</button>
+									</div>
+								</div>
+							</div>
+							<div data-step class="card">
+								<div class="card__title">Нужна ли вам специализированная студия?
+								</div>
+								<div class="card__cta">
+									<div class="options">
+										<div class="options__item">
+											<input hidden id="o_8" class="options__input" name="studio" checked type="radio" value="Да нам нужна студия" name="option">
+											<label for="o_8" class="options__label"><span class="options__text">Да нам нужна
+													студия</span></label>
+										</div>
+										<div class="options__item">
+											<input hidden id="o_9" class="options__input" name="studio" type="radio" value="Нет, студия не нужна" name="option">
+											<label for="o_9" class="options__label"><span class="options__text">Нет, студия не
+													нужна</span></label>
+										</div>
+									</div>
+								</div>
+								<div class="card__footer">
+									<div class="card__progress progress-card">
+										<div class="progress-card__text">Готово <span>60%</span> </div>
+										<div class="progress-card__line progress-card__line_6"></div>
+									</div>
+									<div class="card__actions">
+										<button data-goto=".stepper" data-previous type="button">
+
+										</button>
+										<button data-goto=".stepper" data-next type="button">Следующий вопрос</button>
+									</div>
+								</div>
+							</div>
+							<div data-step class="card">
+								<div class="card__title">Есть ли у вас визуальные и и информационные материалы по вашему
+									продукту, услуге, компании в целом?</div>
+								<div class="card__cta">
+									<textarea placeholder="Например: можете оставить ссылку на ваш брендбук, или другие материалы." required name="materials" id="" cols="30" rows="10"></textarea>
+								</div>
+								<div class="card__footer">
+									<div class="card__progress progress-card">
+										<div class="progress-card__text">Готово <span>70%</span> </div>
+										<div class="progress-card__line progress-card__line_7"></div>
+									</div>
+									<div class="card__actions">
+										<button data-goto=".stepper" data-previous type="button">
+
+										</button>
+										<button data-goto=".stepper" data-next type="button">Следующий вопрос</button>
+									</div>
+								</div>
+							</div>
+							<div data-step class="card">
+								<div class="card__title">Выберите желаемые формат(ы) вашего ролика, если вы хотите
+									комбинированный формат
+								</div>
+								<div class="card__cta">
+									<div class="card__checkbox">
+										<div class="checkbox">
+											<input id="c_1" data-error="Ошибка" name="format-video" class="checkbox__input" type="checkbox" value="Видео" name="form[]">
+											<label for="c_1" class="checkbox__label"><span class="checkbox__text">Видео</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_2" data-error="Ошибка" name="format-anim" class="checkbox__input" type="checkbox" value="Анимация" name="form[]">
+											<label for="c_2" class="checkbox__label"><span class="checkbox__text">Анимация</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_3" data-error="Ошибка" name="format-3d" class="checkbox__input" type="checkbox" value="3D-визуализация" name="form[]">
+											<label for="c_3" class="checkbox__label"><span class="checkbox__text">3D-визуализация</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_4" data-error="Ошибка" name="format-aero" class="checkbox__input" type="checkbox" value="Аэросъемка" name="form[]">
+											<label for="c_4" class="checkbox__label"><span class="checkbox__text">Аэросъемка</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_5" data-error="Ошибка" name="format-no" class="checkbox__input" type="checkbox" value="3атрудняюсь ответить" name="form[]">
+											<label for="c_5" class="checkbox__label"><span class="checkbox__text">3атрудняюсь
+													ответить</span></label>
+										</div>
+									</div>
+								</div>
+								<div class="card__footer">
+									<div class="card__progress progress-card">
+										<div class="progress-card__text">Готово <span>80%</span> </div>
+										<div class="progress-card__line progress-card__line_8"></div>
+									</div>
+									<div class="card__actions">
+										<button data-goto=".stepper" data-previous type="button">
+
+										</button>
+										<button data-goto=".stepper" data-next type="button">Следующий вопрос</button>
+									</div>
+								</div>
+							</div>
+							<div data-step class="card">
+								<div class="card__title">Стиль вашего ролика
+								</div>
+								<div class="card__cta">
+									<div class="card__checkbox">
+										<div class="checkbox">
+											<input id="c_11" data-error="Ошибка" name="style-c" class="checkbox__input" type="checkbox" value="коммерческая" name="form[]">
+											<label for="c_11" class="checkbox__label"><span class="checkbox__text">коммерческая</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_12" data-error="Ошибка" name="style-k" class="checkbox__input" type="checkbox" value="художественная" name="form[]">
+											<label for="c_12" class="checkbox__label"><span class="checkbox__text">художественная</span></label>
+										</div>
+										<div class="checkbox">
+											<input id="c_13" data-error="Ошибка" name="style-d" class="checkbox__input" type="checkbox" value="документальная" name="form[]">
+											<label for="c_13" class="checkbox__label"><span class="checkbox__text">документальная</span></label>
+										</div>
+										<div class="checkbox">
+											<input class="input input_brief" type="text" name="ownversion" placeholder="написать свой варинат">
+										</div>
+									</div>
+								</div>
+								<div class="card__footer">
+									<div class="card__progress progress-card">
+										<div class="progress-card__text">Готово <span>90%</span> </div>
+										<div class="progress-card__line progress-card__line_9"></div>
+									</div>
+									<button type="button" data-goto=".stepper" class="card__submit" data-submit>Завершить</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div hidden class="stepper__last last-stepper">
+						<nav class="breadcrumps">
+							<ul class="breadcrumps__list">
+								<li class="breadcrumps__item">
+									<a href="index.html" class="breadcrumps__link">Главная</a>
+								</li>
+								<span>|</span>
+								<li class="breadcrumps__item">
+									Бриф
+								</li>
+							</ul>
+						</nav>
+						<div class="last-stepper__items">
+							<div class="last-stepper__item">
+								<h3 class="last-stepper__label label">Спасибо за информацию!</h3>
+								<div class="last-stepper__text">
+									<p>
+										Ваш проект в работе! Мы скоро с Вами свяжемся для уточнения деталей.
+									</p>
+								</div>
+							</div>
+							<div class="last-stepper__cta">
+								<div class="last-stepper__form-block form-block">
+									<div class="form-block__inputs">
+										<div class="form-block__line">
+											<input data-required autocomplete="off" type="text" name="username" data-error="введите ваше имя" placeholder="Ваше имя" class="input">
+										</div>
+										<div class="form-block__line">
+											<input data-required="email" autocomplete="off" type="text" name="usermail" data-error="введите ваше email" placeholder="E-mail" class="input">
+										</div>questions
+										<div class="form-block__line">
+											<input data-required autocomplete="off" type="tel" name="userphone" data-error="Введите номер мобильного телефона" placeholder="Номер телефона" class="input">
+										</div>
+									</div>
+									<div class="form-block__footer">
+										<button type="submit" class="button button_form">Отправить</button>
+										<p class="form-block__privacy">Отправляя свои данные вы даете согласие на их обработку
+											в соответствии <a href="#">с политикой конфидециальности</a> </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<a href="#" class="footer__logo logo">
+						<img src="img/logo.svg" alt="icon:logo">
+					</a>
+					<div class="footer__content">
+						<a href="#" class="footer__address">123557, г. Москва,
+							ул. Малая Грузинская, 46,
+							цокольный этаж</a>
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="tel:+79651935143" class="footer__link">Тел. +7 965 193 51 43</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">E-mail: info@celicom.pro</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Telegram: @celicomproductionbot</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__actions">
+						<a target="_blank" href="https://www.youtube.com/watch?v=hO4PhCQF6EM" class="footer__showrell showrell">
+							<span>Showreel</span>
+							<span class="showrell__icon"></span>
+						</a>
+						<div class="footer__social social">
+							<a target="_blank" href="https://t.me/CelicomProductionBot" class="social__telegram _icon-telegram"></a>
+							<a target="_blank" href="https://vk.com/celicomprovideo" class="social__wk _icon-wk"></a>
+							<a target="_blank" href="https://www.youtube.com/@celicomproduction" class="social__youtube _icon-youtube"></a>
+							<a target="_blank" href="https://www.instagram.com/celicomprovideo/" class="social__instagram _icon-instagram"></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<p class="bottom-footer__info">© 2023 Celicom. Профессиональный видеопродакшн в Москве</p>
+					<div class="bottom-footer__actions">
+						<a href="#" class="terms">Пользовательское соглашение</a>
+						<a href="#" class="policy">Политика конфиденциальности</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="form-message" aria-hidden="true" class="popup popup_thanks">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<img class="popup__light" src="img/icons/close.svg" alt="icon:close">
+					<img class="popup__dark" src="img/icons/close-dark.svg" alt="icon:close">
+				</button>
+				<div class="popup__text">
+					Заявка отправлена, <br> мы с вами свяжемся!
+				</div>
+				<div class="popup__button">
+					<a href="index.html" class="button button_thanks">отлично</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="zoom-message" aria-hidden="true" class="popup popup__zoom zoom-popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<img class="popup__light" src="img/icons/close.svg" alt="icon:close">
+					<img class="popup__dark" src="img/icons/close-dark.svg" alt="icon:close">
+				</button>
+				<div class="popup__header">Забронировать zoom-конференцию</div>
+				<p class="popup__description">Мы вам перезвоним и подробно проконсультируем</p>
+				<form data-popup-message="#form-message" data-ajax action="files/sendmail/sendmail.php" method="POST" class="zoom-popup__form">
+					<div class="form-block__line zoom">
+						<input data-required="email" autocomplete="off" type="text" name="usermail" data-error="введите ваш Email" placeholder="Ваш Email" class="input">
+					</div>
+					<div class="form-block__line zoom">
+						<input data-required autocomplete="off" type="text" name="username" data-error="введите ваше имя" placeholder="Ваше имя" class="input">
+					</div>
+					<div class="form-block__line zoom">
+						<input data-required data-datepicker autocomplete="off" type="text" name="userdate" data-error="назначьте дату" placeholder="Hазначить дату" class="input">
+					</div>
+					<select name="usertime" class="form">
+						<option value="09:00" selected>09:00</option>
+						<option value="10:00">10:00</option>
+						<option value="11:00">11:00</option>
+						<option value="12:00">12:00</option>
+						<option value="13:00">13:00</option>
+						<option value="14:00">14:00</option>
+						<option value="15:00">15:00</option>
+						<option value="16:00">16:00</option>
+						<option value="17:00">17:00</option>
+						<option value="18:00">18:00</option>
+						<option value="19:00">19:00</option>
+						<option value="20:00">20:00</option>
+					</select>
+					<button type="submit" class="button button_form">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="popup-callback" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<img class="popup__light" src="img/icons/close.svg" alt="icon:close">
+					<img class="popup__dark" src="img/icons/close-dark.svg" alt="icon:close">
+				</button>
+				<div class="popup__header">Оставьте заявку</div>
+				<p class="popup__description">Мы вам перезвоним и подробно проконсультируем</p>
+				<form data-popup-message="#form-message" data-ajax action="files/sendmail/sendmail.php" method="POST" class="popup__form-block form-block" action="#">
+					<div class="form-block__inputs">
+						<div class="form-block__line">
+							<input data-required autocomplete="off" type="text" name="username" data-error="введите ваше имя" placeholder="Ваше имя" class="input">
+						</div>
+						<div class="form-block__line">
+							<input data-required autocomplete="off" type="tel" name="userphone" data-error="Введите номер мобильного телефона" placeholder="Номер телефона" class="input">
+						</div>
+					</div>
+					<div class="form-block__footer">
+						<button type="submit" class="button button_form">Отправить</button>
+						<p class="form-block__privacy">Отправляя свои данные вы даете согласие на их обработку в соответствии <a href="#">с политикой конфидециальности</a> </p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="popup-discuss" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<img class="popup__light" src="img/icons/close.svg" alt="icon:close">
+					<img class="popup__dark" src="img/icons/close-dark.svg" alt="icon:close">
+				</button>
+				<div class="popup__header">Обсудить проект</div>
+				<p class="popup__description">Мы вам перезвоним и подробно проконсультируем</p>
+				<form data-popup-message="#form-message" data-ajax action="files/sendmail/sendmail.php" method="POST" class="popup__form-block form-block" action="#">
+					<div class="form-block__inputs">
+						<div class="form-block__line">
+							<input data-required autocomplete="off" type="text" name="username" data-error="введите ваше имя" placeholder="Ваше имя" class="input">
+						</div>
+						<div class="form-block__line">
+							<input data-required autocomplete="off" type="tel" name="userphone" data-error="Введите номер мобильного телефона" placeholder="Номер телефона" class="input">
+						</div>
+						<div class="form-block__line">
+							<input data-required autocomplete="off" type="mail" name="usermail" data-error="Введите ваш Email" placeholder="Email" class="input">
+						</div>
+					</div>
+					<div class="form-block__footer">
+						<button type="submit" class="button button_form">Отправить</button>
+						<p class="form-block__privacy">Отправляя свои данные вы даете согласие на их обработку в соответствии <a href="#">с политикой конфидециальности</a> </p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script>
+		// 2. This code loads the IFrame Player API code asynchronously.
+		var tag = document.createElement('script');
+
+		tag.src = "https://www.youtube.com/iframe_api";
+		var firstScriptTag = document.getElementsByTagName('script')[0];
+		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+		// 3. This function creates an <iframe> (and YouTube player)
+		//    after the API code downloads.
+		function onYouTubeIframeAPIReady() {
+			changeVideo('DjvXezhjTUo');
+		}
+		// 4. The API will call this function when the video player is ready.
+		function onPlayerReady(event) {
+			event.target.playVideo();
+			// if(window.innerWidth < 479){
+			// 	player.loadVideoById('q2SvAHdqw0Q');
+			// }
+		}
+
+		// 5. The API calls this function when the player's state changes.
+		//    The function indicates that when playing a video (state=1),
+		//    the player should play for six seconds and then stop.
+		var done = false;
+
+		function onPlayerStateChange(event) {
+			if (event.data == YT.PlayerState.PLAYING && !done) {
+				setTimeout(stopVideo, 6000);
+				done = true;
+			}
+		}
+		// function stopVideo() {
+		// 	player.stopVideo();
+		// }
+
+		var player;
+
+		function changeVideo(vidid) {
+			if (player) {
+				player.destroy;
+			}
+			player = new YT.Player('player', {
+				width: '100%',
+				videoId: vidid,
+				playerVars: {
+					autoplay: 1,
+					playsinline: 1,
+					mute: 1,
+					controls: 0,
+					loop: 1,
+					playlist: 'DjvXezhjTUo',
+					showinfo: 0
+				},
+				events: {
+					onReady: onPlayerReady,
+				},
+			});
+		}
+	</script>
+	<script src="js/app.min.js?_v=20231230170743"></script>
+</body>
+
+</html>
